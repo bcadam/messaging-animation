@@ -1,5 +1,5 @@
 # Messaging Animation
-This is an easy to use library for animating messages on a devices. It is built to look like the iOS Messaging App but many devices can be used. Texts can be added to the home screen by calling ```addMessage("What's up?");``` in javascript.
+This is an easy to use javascript library for animating messages on a devices. It is built to look like the iOS Messaging App but many devices can be used. Texts can be added to the home screen by calling ```addMessage("What's up?");```.
 ![](http://i.imgur.com/DMKiDPQ.gif)
 
 # Getting Started
