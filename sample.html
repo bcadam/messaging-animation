@@ -1,0 +1,45 @@
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<link href="icono.min.css" rel="stylesheet">
+<link href="marvel.css" rel="stylesheet">
+<link href="messaging-animation.css" rel="stylesheet">
+<script src="messaging-animation.js" type="text/javascript"></script>
+<script>
+$( document ).ready(function() {
+
+addMessage("What's up?");
+addMessage(1000, 1500, "from-them", "Not much");
+addMessage(2000, "from-me", "cool");
+addMessage(2000, 2000, "from-them", "good convo");
+addMessage(2000, "from-me", "we should do this more often");
+addMessage(2000, 2000, "from-them", "most def");
+
+});
+
+</script>
+<div class="marvel-device iphone5s gold">
+    <div class="top-bar"></div>
+    <div class="sleep"></div>
+    <div class="volume"></div>
+    <div class="camera"></div>
+    <div class="sensor"></div>
+    <div class="speaker"></div>
+    <div class="screen" style="background-color:white;width:100%;">
+        <section id="textbox">
+        </section>
+        <div id="textBar">
+            <div style="width:15%;" class="barItem">
+                <i style="margin-left:4%;margin-top:3%;" id="cameraIcon" class="pull-left icono-camera"></i>
+            </div>
+            <div style="width:70%;" class="barItem">
+                <div id="inputText" id="keyboardloc" class="pull-left" type="text">
+                    <div style="padding-right:2%;"></div>
+                </div>
+            </div>
+            <div style="width:15%;" class="barItem">
+                <i style="margin-left:4%;margin-top:5%;" id="microphoneIcon" class="icono-microphone pull-right"></i>
+            </div>
+        </div>
+    </div>
+    <div class="home"></div>
+    <div class="bottom-bar"></div>
+</div>
