@@ -50,13 +50,12 @@ addMessage(2000, 2000, "from-them", "good convo");
 <b>addMessage() -></b> Suggests you pass some arguments <br />
 <b>addMessage(text) -></b>  Shows the text on the user side <br />
 <b>addMessage(direction,text) -></b>  Shows the text on the selected side <br />
-<b>addMessage(delay,direction,text) -></b>  Shows text on selected side after delay <br />
+<b>addMessage(timeToStart,direction,text) -></b>  Shows text on selected side after delay <br />
 <b>addMessage(timeToStart,timetoWrite,direction,text) -></b>  Shows text after delay with set time of ellipsis <br />
 
 ####Parameters
 <b>direction -></b>  is either "from-me" or "from-them" <br />
 <b>text -></b> is whatever text you want to send <br />
-<b>delay -></b> is how long after the previous text to send <br />
 <b>timeToStart -></b> is how long after the previous text to send <br />
 <b>timeToWrite -></b> is how long the loading ellipsis should be displayed <br />
 
